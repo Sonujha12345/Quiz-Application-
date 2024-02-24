@@ -1,0 +1,61 @@
+.page {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .number {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .number > div {
+    margin: 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .message {
+    margin-bottom: 20px;
+  }
+  
+  .mcq {
+    margin-bottom: 20px;
+  }
+  
+  .mcq p {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .mcq label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
